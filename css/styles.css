@@ -3,7 +3,7 @@
   border: 0;
 }
 
-.sticky-top{
+.navbar-static-top{
   position: sticky;
 }
 .navbar-header{
