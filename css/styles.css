@@ -3,6 +3,9 @@
   border: 0;
 }
 
+.sticky-top{
+  position: sticky;
+}
 .navbar-header{
 padding-bottom: 10px;
 }
