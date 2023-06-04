@@ -1,0 +1,67 @@
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header{
+padding-bottom: 10px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.row {
+  width: 100%;
+}
+
+#page-title + div {
+  margin-bottom: 50px;
+}
+
+#tile{
+  background-color: #808080;
+  border: 1px solid black;
+  padding: 0 auto 1em;
+  margin:1em;
+}
+
+#nav-list{
+  background-color: #D3D3D3;
+  border: 1px solid black;
+}
+
+#nav-list li{
+  border-bottom: 1px solid black;
+}
+
+#nav-list li:nth-child(3){
+  border-bottom: none;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #tile {
+    height: 1000px;
+  }
+}
+
+********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  }
